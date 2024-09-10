@@ -1,0 +1,679 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.28f1 (6bae5ce6b222) revision 7056988'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'en' Physical Memory: 16142 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/micha/Documents/NeonDrif
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64758
+Successfully changed project path to: C:/Users/micha/Documents/NeonDrif
+C:/Users/micha/Documents/NeonDrif
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24336] Host "[IP] 192.168.29.1 [Port] 0 [Flags] 2 [Guid] 326071626 [EditorId] 326071626 [Version] 1048832 [Id] WindowsEditor(7,CyberWorld) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24336] Host "[IP] 192.168.29.1 [Port] 0 [Flags] 2 [Guid] 326071626 [EditorId] 326071626 [Version] 1048832 [Id] WindowsEditor(7,CyberWorld) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 1476.91 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/micha/Documents/NeonDrif/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     4026 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013491 seconds.
+- Loaded All Assemblies, in  0.705 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 677 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.121 seconds
+Domain Reload Profiling: 1825ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (326ms)
+				TypeCache.ScanAssembly (306ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1122ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1045ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (823ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.539 seconds
+Refreshing native plugins compatible for Editor in 18.43 ms, found 11 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.149 seconds
+Domain Reload Profiling: 3677ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (2244ms)
+		LoadAssemblies (2033ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (239ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (928ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 20.02 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5010 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 145 unused Assets / (3.2 MB). Loaded Objects now: 5479.
+Memory consumption went from 228.6 MB to 225.4 MB.
+Total: 6.808200 ms (FindLiveObjects: 0.534000 ms CreateObjectMapping: 0.283400 ms MarkObjects: 4.473500 ms  DeleteObjects: 1.515800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114408.591080 seconds.
+  path: Assets/_DLNK/Neon City/Scene/New Folder
+  artifactKey: Guid(6027a5a17d3919b46b946300a79db1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/Neon City/Scene/New Folder using Guid(6027a5a17d3919b46b946300a79db1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723aa34359a8ff0c9f67a71d751663c6') in 0.004158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1633.838569 seconds.
+  path: Assets/rskj/gradlew
+  artifactKey: Guid(7f5b06f68674c014981ca7a154cc3536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/gradlew using Guid(7f5b06f68674c014981ca7a154cc3536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9bd581112e4545689b5de7397835b6') in 0.021507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.553027 seconds.
+  path: Assets/rskj/gradle
+  artifactKey: Guid(ce4a6e55563e3f34ab996265a10f0057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/gradle using Guid(ce4a6e55563e3f34ab996265a10f0057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba3df5627c537787f2f831dc123aac6') in 0.000798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.314194 seconds.
+  path: Assets/rskj/gradle/verification-metadata.xml
+  artifactKey: Guid(e612b735a42af4247aa68adf92e247c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/gradle/verification-metadata.xml using Guid(e612b735a42af4247aa68adf92e247c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9f6370ed87b532b1c9d2772d9d72f7') in 0.002225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.399942 seconds.
+  path: Assets/rskj/scripts
+  artifactKey: Guid(355b515ec95686343a9c5bc61971a070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/scripts using Guid(355b515ec95686343a9c5bc61971a070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd33d63c55336c5ea87e3acd54caa2b2') in 0.002949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.374306 seconds.
+  path: Assets/rskj/rskj-core
+  artifactKey: Guid(69cff8588aa0a0a44bf8bc14052dd7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/rskj-core using Guid(69cff8588aa0a0a44bf8bc14052dd7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a3f41e57f2543ae4ac4817a279f499') in 0.001478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.575429 seconds.
+  path: Assets/rskj/rskj-core/README.md
+  artifactKey: Guid(228e55faf7fdef145a8e76b30bf32503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/rskj-core/README.md using Guid(228e55faf7fdef145a8e76b30bf32503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cc6a8bdf6e087bd1977f3ee340d4de') in 0.071313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.860626 seconds.
+  path: Assets/rskj/rskj-core/src/integrationTest
+  artifactKey: Guid(3db62fd5a7f655247b7fcb72b0dc0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/rskj-core/src/integrationTest using Guid(3db62fd5a7f655247b7fcb72b0dc0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64bb6837210792bb3ccc22d89f10fbb') in 0.002079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/rskj/rskj-core/src/integrationTest/java/co
+  artifactKey: Guid(81e7154c7b595244fb689a61f33d0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/rskj-core/src/integrationTest/java/co using Guid(81e7154c7b595244fb689a61f33d0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56871faec8622c46097473bff61ded87') in 0.001737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/rskj/rskj-core/src/main
+  artifactKey: Guid(e60e36bab7482724a9f5dc526a442a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/rskj-core/src/main using Guid(e60e36bab7482724a9f5dc526a442a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51afd25f3a6bfd07c4f0aa8c7e1d4d1') in 0.003077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.296903 seconds.
+  path: Assets/rskj/rskj-core/src/integrationTest/java/co/rsk
+  artifactKey: Guid(173df98bc961dc34c951499157b382a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rskj/rskj-core/src/integrationTest/java/co/rsk using Guid(173df98bc961dc34c951499157b382a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea212ab328618928e048d4fe84254fb') in 0.008998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 127.53 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (2.9 MB). Loaded Objects now: 5480.
+Memory consumption went from 125.5 MB to 122.6 MB.
+Total: 20.502800 ms (FindLiveObjects: 1.487700 ms CreateObjectMapping: 0.345200 ms MarkObjects: 15.982400 ms  DeleteObjects: 2.684500 ms)
+
+Prepare: number of updated asset objects reloaded= 76
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 39.94 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (2.8 MB). Loaded Objects now: 5480.
+Memory consumption went from 125.4 MB to 122.6 MB.
+Total: 10.833300 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.460400 ms MarkObjects: 8.062700 ms  DeleteObjects: 1.815000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.958 seconds
+Refreshing native plugins compatible for Editor in 4057.80 ms, found 11 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 11.310 seconds
+Domain Reload Profiling: 20258ms
+	BeginReloadAssembly (2850ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (86ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (893ms)
+	RebuildCommonClasses (146ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (5764ms)
+		LoadAssemblies (5532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1494ms)
+			TypeCache.Refresh (1137ms)
+				TypeCache.ScanAssembly (519ms)
+			ScanForSourceGeneratedMonoScriptInfo (313ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (11318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (122ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (282ms)
+			ProcessInitializeOnLoadAttributes (1718ms)
+			ProcessInitializeOnLoadMethodAttributes (341ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 1837.20 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1746 unused Assets / (5.5 MB). Loaded Objects now: 5485.
+Memory consumption went from 238.5 MB to 233.0 MB.
+Total: 18.014800 ms (FindLiveObjects: 0.782900 ms CreateObjectMapping: 0.435500 ms MarkObjects: 7.306200 ms  DeleteObjects: 9.488000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4430.516526 seconds.
+  path: Assets/js-sdk/LICENSE
+  artifactKey: Guid(3e53f02b0f0eb9041ab3899969091969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/LICENSE using Guid(3e53f02b0f0eb9041ab3899969091969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dbbe62a6846657c9d14d9cf8d86cd0') in 0.043494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.532353 seconds.
+  path: Assets/js-sdk/turbo.json
+  artifactKey: Guid(24fc8230dd4bf504383d4c750b6386a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/turbo.json using Guid(24fc8230dd4bf504383d4c750b6386a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f95c78bb6635474c6b194385866cd6') in 0.001945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.336347 seconds.
+  path: Assets/js-sdk/yarn.lock
+  artifactKey: Guid(26926b71d085e0f4bb259977f47c89d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/yarn.lock using Guid(26926b71d085e0f4bb259977f47c89d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86649ccb7c78eed59d50d0e4782ec417') in 0.002019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.225189 seconds.
+  path: Assets/js-sdk/copy.bara.sky
+  artifactKey: Guid(e80a30a8c6f370a449581a64409d2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/copy.bara.sky using Guid(e80a30a8c6f370a449581a64409d2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f2d720bb81f9d616043da92d97e4c3') in 0.002076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.337546 seconds.
+  path: Assets/js-sdk/packages
+  artifactKey: Guid(e7d87287e33cc4447943ad3fee6b21b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/packages using Guid(e7d87287e33cc4447943ad3fee6b21b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045f46f89d3d3d2b01bfd3cc367f84e4') in 0.001704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.386634 seconds.
+  path: Assets/js-sdk/apps
+  artifactKey: Guid(6eba658c2f938f242b3ccc5c0e896ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps using Guid(6eba658c2f938f242b3ccc5c0e896ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d51a9d5a3d7b1e1fb38b0882cf0d60') in 0.000724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.853461 seconds.
+  path: Assets/js-sdk/apps/examples
+  artifactKey: Guid(a9226fb22ba59784daf76de6321c32d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples using Guid(a9226fb22ba59784daf76de6321c32d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3a2dd0d7d48412a5892bf880628f9e') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.866881 seconds.
+  path: Assets/js-sdk/apps/examples/jwt-server
+  artifactKey: Guid(8a6d5f68c63f86c49a4bf80154a36f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/jwt-server using Guid(8a6d5f68c63f86c49a4bf80154a36f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82277fdd57440e13521e71f7a6840d60') in 0.000738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.579789 seconds.
+  path: Assets/js-sdk/apps/examples/ls-react-native-crypto-app
+  artifactKey: Guid(7a4c9147c0b0f5e438750d7eceaea429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/ls-react-native-crypto-app using Guid(7a4c9147c0b0f5e438750d7eceaea429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddae8a558621c5422e8f2cd3aaf9cc6') in 0.002654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.440445 seconds.
+  path: Assets/js-sdk/apps/examples/nodejs-scripts
+  artifactKey: Guid(6e589872a05b78143b8b08c6ee593ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/nodejs-scripts using Guid(6e589872a05b78143b8b08c6ee593ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5317f15d018700e1b6fab5380433d49') in 0.001139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.492843 seconds.
+  path: Assets/js-sdk/apps/examples/react-wallet-app
+  artifactKey: Guid(00bc8dcb90161924094ab162ee5dbf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/react-wallet-app using Guid(00bc8dcb90161924094ab162ee5dbf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6cece20c73175ed34c1ba5738b2f2c') in 0.001953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.471475 seconds.
+  path: Assets/js-sdk/apps/examples/ui-test-app
+  artifactKey: Guid(51d9ee9f6b250854ca669d8d8466da27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/ui-test-app using Guid(51d9ee9f6b250854ca669d8d8466da27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77611d9632558d93301b8a510a69da7f') in 0.000945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.473320 seconds.
+  path: Assets/js-sdk/apps/examples/uma-vasp
+  artifactKey: Guid(bbe05f3c699ac2f488a78e1eb0b17004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/uma-vasp using Guid(bbe05f3c699ac2f488a78e1eb0b17004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0f39086c8f89b26940a5c267efa2e4') in 0.001064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.352415 seconds.
+  path: Assets/js-sdk/packages/crypto-wasm
+  artifactKey: Guid(757acc31de62a0f4fb9c9fa930018738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/packages/crypto-wasm using Guid(757acc31de62a0f4fb9c9fa930018738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79b07df0462b3210116c85086bdcd58') in 0.002354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.623261 seconds.
+  path: Assets/js-sdk/packages/core
+  artifactKey: Guid(b7612d4695f2aca469eac8a37e61b1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/packages/core using Guid(b7612d4695f2aca469eac8a37e61b1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21ce618c39922328ace22d4a2bf86f9') in 0.000686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.071631 seconds.
+  path: Assets/js-sdk/packages/core/src
+  artifactKey: Guid(db6768f1e1aaae84cbe69faa608a38f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/packages/core/src using Guid(db6768f1e1aaae84cbe69faa608a38f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7733e96ef0e5bdf63c891a7f43de7b') in 0.000690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.860154 seconds.
+  path: Assets/js-sdk/packages/core/src/utils
+  artifactKey: Guid(977bd6c512413334aa6fb9ec5e213943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/packages/core/src/utils using Guid(977bd6c512413334aa6fb9ec5e213943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee2fca9797beb75fcecfa80adab2bbd') in 0.002272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.616203 seconds.
+  path: Assets/js-sdk/packages/core/src/crypto
+  artifactKey: Guid(e4d636a30deb3d647b0aaa108fb0fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/packages/core/src/crypto using Guid(e4d636a30deb3d647b0aaa108fb0fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ae9fc67c0899a2e8845d9572e15934') in 0.001639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.928890 seconds.
+  path: Assets/js-sdk/packages/core/src/crypto/crypto.ts
+  artifactKey: Guid(0944a0faff4b1114b95f6fefbbe9053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/packages/core/src/crypto/crypto.ts using Guid(0944a0faff4b1114b95f6fefbbe9053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5130d67e557af660ef6f1d5b24b269') in 0.002148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.680743 seconds.
+  path: Assets/js-sdk/packages/core/src/crypto/tests
+  artifactKey: Guid(a9154f619c85d37489552e1f50aa8d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/packages/core/src/crypto/tests using Guid(a9154f619c85d37489552e1f50aa8d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b4efed32c0127c7f2e9a65f2cb2196') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.453028 seconds.
+  path: Assets/js-sdk/apps/examples/oauth-app
+  artifactKey: Guid(ff5210b82b204f94e9ce945c6d6c8bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/oauth-app using Guid(ff5210b82b204f94e9ce945c6d6c8bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b2b5f87cb2461ef60503aee8211dc1') in 0.003596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.847661 seconds.
+  path: Assets/js-sdk/apps/examples/remote-signing-server
+  artifactKey: Guid(07dfcb54d58593a4b9823bd418a43e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/remote-signing-server using Guid(07dfcb54d58593a4b9823bd418a43e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28038b521419fa78984b1d00a9811289') in 0.000997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.462952 seconds.
+  path: Assets/js-sdk/apps/examples/streaming-wallet-extension
+  artifactKey: Guid(4195e6178e6e3fa43aad720f3afb620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/streaming-wallet-extension using Guid(4195e6178e6e3fa43aad720f3afb620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195e866065f84139f2ccda68887e736c') in 0.001647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.644152 seconds.
+  path: Assets/js-sdk/apps/examples/uma-vasp-cli
+  artifactKey: Guid(f92ffd7e80013f944b2d4ae28eea6a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/uma-vasp-cli using Guid(f92ffd7e80013f944b2d4ae28eea6a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8275a265b57562ced8d08ebde4957cb') in 0.000667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.502048 seconds.
+  path: Assets/js-sdk/apps/examples/settings.json
+  artifactKey: Guid(bf802523d21c21b45b85a61cd8fb0801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/settings.json using Guid(bf802523d21c21b45b85a61cd8fb0801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4185f6ef878613b51049d8a92523ed') in 0.001551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.820465 seconds.
+  path: Assets/js-sdk/apps/examples/README.md
+  artifactKey: Guid(d34c18da9cca36649ba06ed5629eb0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/README.md using Guid(d34c18da9cca36649ba06ed5629eb0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44194ad6924f7c9403ff424735861aef') in 0.006741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 87.806004 seconds.
+  path: Assets/js-sdk/apps/examples/jwt-server/src
+  artifactKey: Guid(fa866d11e9a894544918a8b74e4c7526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/jwt-server/src using Guid(fa866d11e9a894544918a8b74e4c7526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec478c0748520ab791741b46054a8f3') in 0.006175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.195476 seconds.
+  path: Assets/js-sdk/apps/examples/jwt-server/src/index.ts
+  artifactKey: Guid(28535c860e1d9c64d8d34f91beca734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/jwt-server/src/index.ts using Guid(28535c860e1d9c64d8d34f91beca734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee36b1084b853487b161364c3095a22') in 0.002288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.125872 seconds.
+  path: Assets/js-sdk/apps/examples/ls-react-native-crypto-app/assets
+  artifactKey: Guid(7e7510ae6f2e5334c80a2a5a1a07a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/ls-react-native-crypto-app/assets using Guid(7e7510ae6f2e5334c80a2a5a1a07a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f4e48dfd7db5950a3da10af4c95cb6') in 0.001802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061826 seconds.
+  path: Assets/js-sdk/apps/examples/ls-react-native-crypto-app/assets/adaptive-icon.png
+  artifactKey: Guid(c4ed9efb3ca7c884eac29b41d33d7c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/ls-react-native-crypto-app/assets/adaptive-icon.png using Guid(c4ed9efb3ca7c884eac29b41d33d7c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36178c10519a484114e96d1c8cf536e') in 0.131897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/js-sdk/apps/examples/ls-react-native-crypto-app/assets/icon.png
+  artifactKey: Guid(dcc4b4a417d5a894582f705bc77e5498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/ls-react-native-crypto-app/assets/icon.png using Guid(dcc4b4a417d5a894582f705bc77e5498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418c16c4194767b2f64eb72ced85822b') in 0.032203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/js-sdk/apps/examples/ls-react-native-crypto-app/assets/splash.png
+  artifactKey: Guid(ef33c3eee85bfbb47b7af808c005a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/ls-react-native-crypto-app/assets/splash.png using Guid(ef33c3eee85bfbb47b7af808c005a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fd8752d84d0d02cf7b8f64ee132441') in 0.038571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.028001 seconds.
+  path: Assets/js-sdk/apps/examples/ls-react-native-crypto-app/app.json
+  artifactKey: Guid(951821558d55d6343bc341894fb136d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/js-sdk/apps/examples/ls-react-native-crypto-app/app.json using Guid(951821558d55d6343bc341894fb136d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41be5f339124841aa6313cdf7bb0b312') in 0.002185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1173.270909 seconds.
+  path: Assets/anduro-wallet-connector-react/src/hooks/useConnector.tsx
+  artifactKey: Guid(bfcd5eacff389d64fbb336017cba0ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/anduro-wallet-connector-react/src/hooks/useConnector.tsx using Guid(bfcd5eacff389d64fbb336017cba0ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2c463efe4b0e2b1e66e96e959051cc') in 0.002973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
